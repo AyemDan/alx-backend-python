@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-This module provides a function to safely retrieve 
+This module provides a function to safely retrieve
 the first element of a sequence.
 
 Functions:
@@ -19,7 +19,7 @@ def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     Safely retrieves the first element of a sequence.
 
     Args:
-        lst (Sequence[Any]): The sequence from which to retrieve 
+        lst (Sequence[Any]): The sequence from which to retrieve
         the first element.
 
     Returns:
