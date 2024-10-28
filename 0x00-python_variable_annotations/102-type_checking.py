@@ -5,7 +5,7 @@ This module provides a function to zoom an array by repeating its elements.
 
 Functions:
     zoom_array(lst: Tuple, factor: int = 2) -> List
-        Zooms the input tuple by repeating each element a 
+        Zooms the input tuple by repeating each element a
         specified number of times.
 """
 
