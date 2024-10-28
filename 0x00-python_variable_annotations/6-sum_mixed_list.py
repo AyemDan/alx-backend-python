@@ -6,7 +6,7 @@ integers and floating-point numbers.
 
 Functions:
     sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float
-        Sums all integers and floats in a given list and 
+        Sums all integers and floats in a given list and
         returns the result as a float.
 """
 
