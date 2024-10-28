@@ -1,15 +1,23 @@
 #!/usr/bin/env python3
 
-from typing import List, Tuple, Union
+from typing import Tuple, List
 
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    """
+    Zooms an array by repeating its elements.
 
-def zoom_array(lst: Tuple, factor: int = 2) -> List[int]:
-    zoomed_in: List[int] = [
+    Args:
+        lst (Tuple): The input tuple.
+        factor (int, optional): The zoom factor. Defaults to 2.
+
+    Returns:
+        List: The zoomed list.
+    """
+    zoomed_in: List = [
         item for item in lst
-        for _ in range(factor)
+        for i in range(factor)
     ]
     return zoomed_in
-
 
 array = [12, 72, 91]
 
