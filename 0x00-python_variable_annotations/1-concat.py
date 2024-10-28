@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+
 """
 This module contains a function to concatenate two strings.
 
