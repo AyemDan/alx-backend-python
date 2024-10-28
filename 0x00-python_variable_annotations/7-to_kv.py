@@ -10,10 +10,10 @@ Functions:
 """
 
 
-from typing import Tuple
+from typing import List, Tuple, Union
 
 
-def to_kv(k: str, v: float) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Converts a key and value to a tuple, with the value squared.
 

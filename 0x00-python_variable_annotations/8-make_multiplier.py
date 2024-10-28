@@ -5,7 +5,8 @@ This module provides a function that creates a multiplier function.
 
 Functions:
     make_multiplier(multiplier: float) -> callable
-        Returns a function that multiplies its input by the specified multiplier.
+        Returns a function that multiplies its input by the
+        specified multiplier.
 """
 
 
@@ -20,10 +21,9 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         multiplier (float): The multiplier value.
 
     Returns:
-        Callable[[float], float]: A function that multiplies its input by the multiplier.
-    """
-    
-    
+        Callable[[float], float]: A function that multiplies its 
+        input by the multiplier.
+    """    
     def multiply(n: float) -> float:
         """
         Multiplies a number by the multiplier.
