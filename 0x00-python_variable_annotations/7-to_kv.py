@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-This module provides a function to convert a key and a value to a tuple, 
+This module provides a function to convert a key and a value to a tuple,
 where the value is squared.
 
 Functions:
@@ -22,6 +22,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
         v (float): The value to be squared.
 
     Returns:
-        Tuple[str, float]: A tuple containing the key and the square of the value.
+        Tuple[str, float]: A tuple containing the key and
+        the square of the value.
     """
     return (k, v ** 2)
