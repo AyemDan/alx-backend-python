@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 
+"""
+This module provides a function to sum a list of floating-point numbers.
+
+Functions:
+    sum_list(input_list: List[float]) -> float
+        Sums all numbers in a given list of floats and returns the result.
+"""
+
+
 from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """
