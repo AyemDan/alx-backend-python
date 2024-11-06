@@ -15,7 +15,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() -> Generator[int, None]:
+async def async_generator() -> Generator[int, None, None]:
     """
     Asynchronous generator that yields a random integer between 0 and 10 after
     a delay.
