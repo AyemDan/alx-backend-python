@@ -12,10 +12,10 @@ Functions:
 
 import asyncio
 import random
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[int, None]:
+async def async_generator() -> Generator[int, None]:
     """
     Asynchronous generator that yields a random integer between 0 and 10 after
     a delay.
