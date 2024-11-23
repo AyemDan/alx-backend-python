@@ -1,4 +1,34 @@
 #!/usr/bin/env python3
+""" This module contains unit and integration
+tests for the GithubOrgClient class.
+
+Classes:
+    TestGithubOrgClient: Contains unit tests for the
+    GithubOrgClient class methods.
+    TestIntegrationGithubOrgClient: Contains integration tests for
+    the GithubOrgClient class methods.
+
+Functions:
+    requests_get: Mocks the requests.get function to return predefined
+    JSON data based on the input URL.
+
+TestGithubOrgClient:
+    Methods:
+        test_org: Tests the org method of GithubOrgClient.
+        test_public_repos_url: Tests the _public_repos_url
+        method of GithubOrgClient.
+        test_public_repos: Tests the public_repos method of GithubOrgClient.
+        test_has_license: Tests the has_license method of GithubOrgClient.
+
+TestIntegrationGithubOrgClient:
+    Methods:
+        setUpClass: Sets up resources for the integration tests.
+        tearDownClass: Tears down resources set up for the integration tests.
+        test_public_repos: Tests the public_repos method
+        without a license filter.
+        test_public_repos_with_license: Tests the public_repos method
+        with a license filter.
+ """
 import unittest
 from unittest.mock import patch, PropertyMock
 from parameterized import parameterized, parameterized_class
